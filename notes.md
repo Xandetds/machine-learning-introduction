@@ -32,6 +32,11 @@ Thinking of your data as a table:
 - import mglearn
 - from IPython.display import display
 
+### Machine performance
+Usually, is done by splitting the data in two parts, with one part being
+used to build the machine learning model, called **training data**, and 
+the other part is used to assess how well the model works, called **test data**
+
 ---
 
 ## Chapter 2
