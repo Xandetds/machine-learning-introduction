@@ -25,6 +25,7 @@ datasets/
 .coverage
 htmlcov/
 .ruff_cache/
+cache
 
 .DS_Store
 Thumbs.db
