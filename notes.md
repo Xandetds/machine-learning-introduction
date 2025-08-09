@@ -25,6 +25,13 @@ Thinking of your data as a table:
 - Can the features of the data enable the right prediction?  
 - How will I measure success in my application?
 
+### All the code will use
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import pandas as pd
+- import mglearn
+- from IPython.display import display
+
 ---
 
 ## Chapter 2
