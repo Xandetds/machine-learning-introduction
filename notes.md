@@ -45,7 +45,11 @@ It is good to see your data before starting to build a machine learning model, t
 if we find any abnormalities (happens often in the real world), like differences in 
 measuring units or maybe too much outliers
 
-
+### k-Nearest Neighbors
+We give the machine a new example for it to label, so it puts the example in the dataframe
+given in the training data, close to the ones with similar measurements, and counts **k**
+numbers of distance from the place the example is, and generalizes by counting the labels in
+the other entities, giving our example the same label
 ---
 
 ## Chapter 2
