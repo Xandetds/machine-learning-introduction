@@ -37,6 +37,9 @@ Usually, is done by splitting the data in two parts, with one part being
 used to build the machine learning model, called **training data**, and 
 the other part is used to assess how well the model works, called **test data**
 
+The **train_test_split** function from scikit learn divides ans shuffles the
+dataset for us, using 75% for the training data part, and 25% for the test data part
+
 ---
 
 ## Chapter 2
