@@ -40,6 +40,12 @@ the other part is used to assess how well the model works, called **test data**
 The **train_test_split** function from scikit learn divides ans shuffles the
 dataset for us, using 75% for the training data part, and 25% for the test data part
 
+### Looking into the data
+It is good to see your data before starting to build a machine learning model, to see
+if we find any abnormalities (happens often in the real world), like differences in 
+measuring units or maybe too much outliers
+
+
 ---
 
 ## Chapter 2
