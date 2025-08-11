@@ -50,6 +50,13 @@ We give the machine a new example for it to label, so it puts the example in the
 given in the training data, close to the ones with similar measurements, and counts **k**
 numbers of distance from the place the example is, and generalizes by counting the labels in
 the other entities, giving our example the same label
+
+### Prediction method
+We can make a prediction by creating a new test array, and the machine will return to us a class
+for the array (features and characteristics we gave to the sample), but we can only be sure the machine
+is guessing correctly, by giving it the test data, that i mentioned earlier here, on which we have the correct
+class for, and can compare to the answer the machine will be giving to us.
+
 ---
 
 ## Chapter 2
