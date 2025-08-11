@@ -57,6 +57,25 @@ for the array (features and characteristics we gave to the sample), but we can o
 is guessing correctly, by giving it the test data, that i mentioned earlier here, on which we have the correct
 class for, and can compare to the answer the machine will be giving to us.
 
+
+### Chapter summary
+- introduction to machine learning and its applications
+- supervised and unsupervised learning
+- tools used in the book 
+- jupyter notebook with all of the practical examples i did while reading, which contains:
+- predicting the species of iris of a flower by the measurements using a dataset of measurements as data
+- X containing the data (two dimensional array of features) and y containing the correct outputs (one dimensional containing class label)
+- split the data into training set to build our model, and test set to see if it works well
+- k-Nearest Neighbors classifications thas takes the closest neighbors to compare and see in which class the new flower fits
+- giving the X_train (training data) and the y_train (training outputs) to teach our model
+- then we give the X_test and compare the response with the y_test to see if it learned
+- i found out the machine got a 97% accuracy, and giving it certain confiability
+
+### Comments on the chapter
+I really think i have learned a little about how the machine is trained to get a good accuracy, i think the next chapter will have
+info on how to maximize the accuracy of trained models, and i am excited for that, of course i am going to have to train this type of
+process, to fixate it good in my head, but the general context of how it is done have been pretty well learned
+
 ---
 
 ## Chapter 2
