@@ -99,6 +99,14 @@ because, even if the machine is to guess an income of 10,000, and it guesses 9,9
 makes this type of error in classification, because if we are trying for example, to guess a language on a book, if the machine does not guess the exact language,
 it is a big problem.
 
+### Overfitting
+It occours when we try to create too complex of a model for little data, basically is when we give too especific data to the model, and it works well on the test
+data, because we did especify what it needed to know to get that part right, but when we give the model new data, it is not able to generalize well, because is too
+focused on the little details
+
+### Underfitting 
+The exact opposite of overfitting, it happens when we make a model that has low especifications, so it also does not generalize well, because is does not have enough details to get the right answer.
+
 
 ---
 
