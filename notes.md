@@ -107,6 +107,12 @@ focused on the little details
 ### Underfitting 
 The exact opposite of overfitting, it happens when we make a model that has low especifications, so it also does not generalize well, because is does not have enough details to get the right answer.
 
+### Model complexity and Data size
+It is important to know that, the complexity of the model and the data size are connected in a way that, the more complex the model is, more data is needed,
+and the more data we have, more of a complex model we can make without overfitting, BUT just duplicating data points or collecting too similar data does not
+work on that case
+
+
 
 ---
 
