@@ -80,7 +80,15 @@ process, to fixate it good in my head, but the general context of how it is done
 
 ## Chapter 2
 
-...
+### Classification in supervised learning
+In machine learning, there is a problem callded classification, in it, we have to predict a class label, from a predefined list of
+choices, like the tree species of irises seen in the last chapter. The problem is divided in two classifications, the **binary** and the **multiclass**.
+The multiclass classification is the one used in chapter one, because we had three options of label (species of iris), so, it is used when there 
+are more than two of those.
+The binary classification is when we have only two possible labels, so it is like the machine is answering a true/false question, an example would be
+a machine that identifies either the mail you recieved is a spam email or not. In this type of classification, it is often spoken of one class being 
+the positive one, and the other, the negative, so, in our example, the mail being a spam, the object is positive, because the machine was built to look 
+for a spam.
 
 ---
 
