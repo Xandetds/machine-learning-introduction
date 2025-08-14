@@ -8,7 +8,6 @@ Example: images of a tumor as input, with the diagnosis and either the tumor is 
 
 *Unsupervised*: when we only provide the **input**.
 Example: Data of customer entering a store, and the machine identifying the groups with similar preferences.
----
 
 ### How the Machine Understands Data
 Thinking of your data as a table:  
@@ -17,7 +16,6 @@ Thinking of your data as a table:
 - Each row (entity) is called a **sample**.  
 - Each column is a **feature**.
 
----
 
 ### What to Keep in Mind While Building an ML Solution
 - What question do I have, and can the data collected answer it?  
@@ -81,7 +79,7 @@ process, to fixate it good in my head, but the general context of how it is done
 ## Chapter 2
 
 ### Classification in supervised learning
-In machine learning, there is a problem callded classification, in it, we have to predict a class label, from a predefined list of
+Classification, is when we have to predict a class label, from a predefined list of
 choices, like the tree species of irises seen in the last chapter. The problem is divided in two classifications, the **binary** and the **multiclass**.
 The multiclass classification is the one used in chapter one, because we had three options of label (species of iris), so, it is used when there 
 are more than two of those.
@@ -89,6 +87,18 @@ The binary classification is when we have only two possible labels, so it is lik
 a machine that identifies either the mail you recieved is a spam email or not. In this type of classification, it is often spoken of one class being 
 the positive one, and the other, the negative, so, in our example, the mail being a spam, the object is positive, because the machine was built to look 
 for a spam.
+
+### Regression in supervised learning
+Regression is when the machine is trying to predict a **real number**, in mathematical terms, or a **floating point number** in programming terms, it is 
+basically a decimal part in it, even if it is zero. An example is when the program tries to predict a persons age, or income, and we provide the machine 
+data to train (supervised learning). 
+
+### Regression and Classification diferences
+Basically, one is trying to guess a number, and the other a class. When we dont mind that much in changes in the final answer, we know is a regression problem,
+because, even if the machine is to guess an income of 10,000, and it guesses 9,999 we dont mind that much. In contrast of that, we do mind when the machine 
+makes this type of error in classification, because if we are trying for example, to guess a language on a book, if the machine does not guess the exact language,
+it is a big problem.
+
 
 ---
 
