@@ -127,6 +127,11 @@ way that the more complex the model is, more data is needed, and the more data w
 of a complex model we can make without overfitting. BUT just duplicating data points or
 collecting too similar data does not work in that case.
 
+### Bunch objects
+- are included in scikit learn datasets
+- contain info about the dataset as well as the actual data
+- example: can be acessed by "bunch.key" instead of the normally used "bunch["key"]"
+
 ---
 
 ## Chapter 3
