@@ -32,7 +32,7 @@ Thinking of your data as a table:
 - from IPython.display import display
 
 ### Machine performance
-Usually, is done by splitting the data in two parts, with one part being used to build the
+Usually, it is done by splitting the data in two parts, with one part being used to build the
 machine learning model, called **training data**, and the other part is used to assess how
 well the model works, called **test data**.
 
@@ -70,7 +70,7 @@ class, and comparing it to the answer the machine gives.
   which class the new flower fits  
 - giving the X_train (training data) and the y_train (training outputs) to teach our model  
 - then we give the X_test and compare the response with the y_test to see if it learned  
-- machine got a 97% accuracy, giving it certain confiability
+- machine got a 97% accuracy, giving it certain reliability
 
 ### Comments on the chapter
 I think I have learned a little about how the machine is trained to get a good accuracy. I
@@ -88,7 +88,7 @@ like the tree species of irises seen in the last chapter. The problem is divided
 classifications: **binary** and **multiclass**.  
 
 The multiclass classification is the one used in chapter one, because we had three label
-options (species of iris). It is used when there are more than two.  
+options (species of iris). It is used when there are more than two of those.  
 
 The binary classification is when we have only two possible labels, like answering a
 true/false question. An example would be a machine that identifies if an email is spam or
@@ -113,18 +113,19 @@ problem.
 ### Overfitting
 It occurs when we try to create too complex a model for little data. Basically, when we give
 too specific data to the model, it works well on the test data because we told it exactly
-what it needed to get that part right. But when we give it new data, it fails to generalize,
-being too focused on small details.
+what it needed to get that part right, but when we give it new data, it is not able to
+generalize well, because it is too focused on the little details.
 
 ### Underfitting
-The opposite of overfitting. It happens when we make a model with low specifications, so it
-cannot generalize well because it does not have enough detail to get the right answer.
+The exact opposite of overfitting. It happens when we make a model that has low
+specifications, so it also does not generalize well, because it does not have enough details
+to get the right answer.
 
 ### Model complexity and Data size
-The complexity of the model and the data size are connected. The more complex the model is,
-the more data is needed, and the more data we have, the more complex a model we can make
-without overfitting. But just duplicating data points or collecting too similar data does not
-help in that case.
+It is important to know that the complexity of the model and the data size are connected in a
+way that the more complex the model is, more data is needed, and the more data we have, more
+of a complex model we can make without overfitting. BUT just duplicating data points or
+collecting too similar data does not work in that case.
 
 ---
 
