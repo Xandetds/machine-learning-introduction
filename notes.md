@@ -134,9 +134,11 @@ collecting too similar data does not work in that case.
 
 
 ### KNN neighbors
-Is going to be used again, as used in chapter one, is the simplest ML
-algorithim, because building the model consists only of storing the 
-training dataset
+Is going to be used again, as used in chapter one, is the simplest ML algorithim, 
+because building the model consists only of storing the training dataset
+
+Instead of considering only the closest neighbor, it is possible to consider a number "k"
+of neighbors, using for example: "(n_neighbors=3)
 ---
 
 ## Chapter 3
