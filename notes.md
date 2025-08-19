@@ -132,6 +132,11 @@ collecting too similar data does not work in that case.
 - contain info about the dataset as well as the actual data
 - example: can be acessed by "bunch.key" instead of the normally used "bunch["key"]"
 
+
+### KNN neighbors
+Is going to be used again, as used in chapter one, is the simplest ML
+algorithim, because building the model consists only of storing the 
+training dataset
 ---
 
 ## Chapter 3
