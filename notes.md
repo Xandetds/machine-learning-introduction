@@ -139,6 +139,10 @@ because building the model consists only of storing the training dataset
 
 Instead of considering only the closest neighbor, it is possible to consider a number "k"
 of neighbors, using for example: "(n_neighbors=3)
+
+It can be used not just for binary classification problems, but to datasets with any number of 
+classes, in that case, we count how many neighbors belong to each class and predict the most
+common class.
 ---
 
 ## Chapter 3
