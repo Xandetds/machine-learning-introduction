@@ -1,20 +1,28 @@
-<h1>📘 Machine Learning Introduction</h1>
+<h1>📘 Machine Learning Labs</h1>
 
-<h3>🧠 Personal study project based on the book <em>Introduction to Machine Learning with Python</em></h3>
-<h3>🔍 Learning ML concepts and practicing technical English</h3>
+<h3>🧠 Book notes • 🧪 Labs (short or multi-week) • 🧩 From-scratch implementations (math + code)</h3>
+<h3>🔍 Practical ML in Python • Technical English practice</h3>
 
 ---
 
-## 📖 About
+## 📖 What this repo is
+This repository started as notes while reading
+<strong><em>Introduction to Machine Learning with Python</em></strong> (Müller & Guido).
+As I advanced, I decided to go deeper: besides using libraries, I also implement the
+<strong>math</strong> and core ideas <strong>from scratch</strong> and keep ongoing <strong>labs</strong>.
 
-This repository contains my personal study notes and experiments while reading the book  
-**"[Introduction to Machine Learning with Python](https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/)"**  
-by *Andreas C. Müller* and *Sarah Guido*.
+> The book track is currently <strong>paused</strong>.  
+> This is now my <strong>general ML lab</strong>: book notes + labs (short or multi-week) + from-scratch.
 
-I’m reading the book in English to:
-- Learn fundamental machine learning concepts
-- Practice technical English
-- Apply the theory through Python experiments
+---
+
+## 📂 Folder Structure
+
+- **Introduction_to_Machine_Learning_with_Python/** — reading notes and chapter notebooks from Müller & Guido’s book.  
+  Status: **paused**; kept as reference.
+
+- **APPLIED-ML-PORTFOLIO/** — my ongoing practice for recruiters and personal growth: labs that can be short or multi-week, plus **from-scratch** implementations (math + code) when useful.
+
 
 ---
 
@@ -31,11 +39,15 @@ I’m reading the book in English to:
 <img src="https://img.shields.io/badge/mglearn-000000?style=for-the-badge" alt="mglearn">
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
 
-
 </div>
 
-📌 *Virtual environment setup*:
+**Virtual env**
 ```bash
+# Linux/macOS
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Windows
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
