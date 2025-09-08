@@ -1,13 +1,13 @@
 <h1>📘 Machine Learning Labs</h1>
 
-<h3>🧠 Book notes • 🧪 Labs (short or multi-week) • 🧩 From-scratch implementations (math + code)</h3>
+<h3>🧠 Book notes •  Labs (short or multi-week) •  From-scratch implementations (math + code)</h3>
 <h3>🔍 Practical ML in Python • Technical English practice</h3>
 
 ---
 
 ## 📖 What this repo is
 This repository started as notes while reading
-<strong><em>Introduction to Machine Learning with Python</em></strong> (Müller & Guido).
+<a href="https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/"><strong><em>Introduction to Machine Learning with Python</em></strong></a>
 As I advanced, I decided to go deeper: besides using libraries, I also implement the
 <strong>math</strong> and core ideas <strong>from scratch</strong> and keep ongoing <strong>labs</strong>.
 
