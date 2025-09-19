@@ -14,16 +14,20 @@ $R^2 = 1 - \dfrac{\sum_i (y_i - \hat y_i)^2}{\sum_i (y_i - \bar y)^2}.$
 
 ---
 
-### Notebook index (what each one does)
+### Notebook index
 
-- **LinearRegression>LinearRegressionMath.ipynb** — *math only*.  
-  Hand-calculation on a tiny dataset (4 points): means, $S_{xy}$, $S_{xx}$, slope $w = S_{xy}/S_{xx}$, intercept $b = \bar y - w\,\bar x$, predictions, MSE, $R^2$. No classes, no sklearn.
+- **LinearRegressionMath.ipynb** — *math walk-through*  
+  - tiny 4-point dataset  
+  - manual formulas: means, Sxy, Sxx → slope & intercept  
+  - predictions, MSE, R²  
+  - **Goal:** understand the math step by step (no classes, no sklearn)
 
-- **LinearRegression>LinearRegression01.ipynb** — *implementation*.  
-  From-scratch OLS using the normal equation with pseudoinverse:  
-  $\theta=\begin{bmatrix}b\\\mathbf{w}\end{bmatrix}=X_b^{+}\,y$, with $X_b=[\mathbf{1}\ \ X]$.  
-  Methods: `fit(X,y)` → learn `intercept_`, `coef_`; `predict(X)` → $\hat y=b+X\mathbf{w}$.  
-  Metrics printed: **MSE** and **$R^2$**.  
+- **LinearRegression01.ipynb** — *from-scratch implementation*  
+  - OLS via pseudoinverse: θ = (X_b)^+ y  
+  - methods: `fit` (learn b,w), `predict` (make predictions)  
+  - tested on 4 points, prints MSE and R²  
+  - **Goal:** turn the math into reusable code
+
   
 
 
