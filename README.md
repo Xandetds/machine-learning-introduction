@@ -1,32 +1,36 @@
-<h1>📘 Machine Learning Labs</h1>
+# 📘 Machine Learning Introduction
 
-<h3>🧠 Book notes •  Labs (short or multi-week) •  From-scratch implementations (math + code)</h3>
-<h3>🔍 Practical ML in Python • Technical English practice</h3>
+### 🧠 Foundations • Applied Labs • From-Scratch Implementations
 
----
-
-## 📖 What this repo is
-This repository started as notes while reading
-<a href="https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/"><strong><em>Introduction to Machine Learning with Python</em></strong></a>
-As I advanced, I decided to go deeper: besides using libraries, I also implement the
-<strong>math</strong> and core ideas <strong>from scratch</strong> and keep ongoing <strong>labs</strong>.
-
-> The book track is currently <strong>paused</strong>.  
-> This is now my <strong>general ML lab</strong>: book notes + labs (short or multi-week) + from-scratch.
+This repository documents my journey into Machine Learning —  
+from the mathematical foundations and first applications to practical, from-scratch implementations.
 
 ---
 
-## 📂 Folder Structure
+## 📂 Structure
 
-- **Introduction_to_Machine_Learning_with_Python/** — reading notes and chapter notebooks from Müller & Guido’s book.  
-  Status: **paused**; kept as reference.
+- **`0_FOUNDATIONS/`** — base concepts and notebooks covering essential ML ideas (KNN, regression, overfitting, etc.)
+- **`1_APPLIED-ML/`** — hands-on experiments and implementations, currently focused on **Linear Regression**.
+- **`archive/`** — legacy notes and notebooks from *Introduction to Machine Learning with Python* (Müller & Guido).
 
-- **APPLIED-ML-PORTFOLIO/** — my ongoing practice for recruiters and personal growth: labs that can be short or multi-week, plus **from-scratch** implementations (math + code) when useful.
+---
 
+## 🎯 Key Skills Developed
+- Understanding of supervised and unsupervised learning paradigms
+- Hands-on experience with scikit-learn and Python’s scientific stack
+- Implementation of regression models from scratch (math + code)
+- Error analysis and evaluation metrics (MSE, R²)
+- Clear technical documentation in English
 
 ---
 
 ## ⚙️ Environment & Tools
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
 
 <div align="center">
 
@@ -41,13 +45,14 @@ As I advanced, I decided to go deeper: besides using libraries, I also implement
 
 </div>
 
-**Virtual env**
-```bash
-# Linux/macOS
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+---
 
-# Windows
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+## 🧭 Next Steps
+- Add Decision Trees and SVM labs
+- Implement Boosting (AdaBoost, XGBoost)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
